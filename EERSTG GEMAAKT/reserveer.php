@@ -37,7 +37,6 @@ require('php.php');
             <li><a href="#">Reserveren</a></li>
             <li><a href="#">Prijzen</a></li>
             <li><a href="#">Informatie </a></li>
-            <li><a href="#">Informatie </a></li>
         </ul>
 
         <label id="icon">
@@ -143,7 +142,7 @@ require('php.php');
                 </fieldset>
 
                 <br>
-                <center><input type="submit" name="button1" value="verstuur"></center>
+                <center><input type="submit" id="button" name="button1" value="verstuur"></center>
 
                 <fieldset>
                     <div class="main">
@@ -257,7 +256,7 @@ require('php.php');
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star checked"></span>
                                         </div>
                                         <p>AMIGO Extreme</p>
                                         <br>
@@ -275,7 +274,7 @@ require('php.php');
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star checked"></span>
                                         </div>
                                         <p>AMIGO Fly 20</p>
                                         <br>
@@ -320,7 +319,7 @@ require('php.php');
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star checked"></span>
                                         </div>
                                         <p>AMIGO Eclypse dames</p>
                                         <br>
@@ -339,7 +338,7 @@ require('php.php');
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
                                             <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star "></span>
+                                            <span class="fa fa-star checked"></span>
                                         </div>
                                         <p>AMIGO Style-S2 heren</p>
                                         <br>
