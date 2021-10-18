@@ -37,6 +37,7 @@ require('php.php');
             <li><a href="#">Reserveren</a></li>
             <li><a href="#">Prijzen</a></li>
             <li><a href="#">Informatie </a></li>
+            <li><a href="#">Informatie </a></li>
         </ul>
 
         <label id="icon">

@@ -34,7 +34,8 @@ try {
         $datum = $_POST['datum'];
         $tijd = $_POST['tijd'];
 
-        $sql = $pdo->prepare("INSERT INTO klant_besteld (voornaam, achternaam, telefoon, adres, huisnummer_toevoeging, email, datum, tijd) VALUES(:voornaam , :achternaam , :telefoon , :adres , :huisnummer_toevoeging , :email , :datum , :tijd)");
+        $sql = $pdo->prepare("INSERT INTO klant_besteld (voornaam, achternaam, telefoon, adres, huisnummer_toevoeging, email, datum, tijd) 
+        VALUES(:voornaam , :achternaam , :telefoon , :adres , :huisnummer_toevoeging , :email , :datum , :tijd)");
         $sql->bindParam(':voornaam', $voornaam);
         $sql->bindParam(':achternaam', $achternaam);
         $sql->bindParam(':telefoon', $telefoon);
@@ -44,7 +45,7 @@ try {
         $sql->bindParam(':datum', $datum);
         $sql->bindParam(':tijd', $tijd);
         $sql->execute();
-        if($sql) {
+        if ($sql) {
             echo "DATA INSERTED SUCCESFULLY";
         } else {
             echo "FAILED TO INSERT";
@@ -53,5 +54,3 @@ try {
 } catch (\PDOException $e) {
     throw new \PDOException($e->getMessage(), (int)$e->getCode());
 }
-
-?>
